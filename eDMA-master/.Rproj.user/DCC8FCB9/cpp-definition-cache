@@ -1,0 +1,168 @@
+[
+    {
+        "file": "/Users/slehmann/Library/CloudStorage/Dropbox/HFTP/eDMA-master/src/Combinations.cpp",
+        "file_last_write": 1535331266.0,
+        "definitions": [
+            {
+                "usr": "c:@F@PowerSet#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "PowerSet(int)",
+                "file": "/Users/slehmann/Library/CloudStorage/Dropbox/HFTP/eDMA-master/src/Combinations.cpp",
+                "line": 8,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@PowerSet2#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "PowerSet2(int)",
+                "file": "/Users/slehmann/Library/CloudStorage/Dropbox/HFTP/eDMA-master/src/Combinations.cpp",
+                "line": 34,
+                "column": 13,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@PowerSet2_withkeep#I#$@N@arma@S@Col>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "PowerSet2_withkeep(int, arma::vec)",
+                "file": "/Users/slehmann/Library/CloudStorage/Dropbox/HFTP/eDMA-master/src/Combinations.cpp",
+                "line": 62,
+                "column": 13,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@PowerSet2_f#I#$@N@arma@S@Col>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "PowerSet2_f(int, arma::vec)",
+                "file": "/Users/slehmann/Library/CloudStorage/Dropbox/HFTP/eDMA-master/src/Combinations.cpp",
+                "line": 113,
+                "column": 13,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/Users/slehmann/Library/CloudStorage/Dropbox/HFTP/eDMA-master/src/Combinations.h",
+        "file_last_write": 1535331266.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "/Users/slehmann/Library/CloudStorage/Dropbox/HFTP/eDMA-master/src/Distributions.cpp",
+        "file_last_write": 1535331266.0,
+        "definitions": [
+            {
+                "usr": "c:@F@rmvnorm_mat#I#$@N@arma@S@Col>#d#$@N@arma@S@Mat>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "rmvnorm_mat(int, arma::vec, arma::mat)",
+                "file": "/Users/slehmann/Library/CloudStorage/Dropbox/HFTP/eDMA-master/src/Distributions.cpp",
+                "line": 6,
+                "column": 11,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/Users/slehmann/Library/CloudStorage/Dropbox/HFTP/eDMA-master/src/Distributions.h",
+        "file_last_write": 1535331266.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "/Users/slehmann/Library/CloudStorage/Dropbox/HFTP/eDMA-master/src/Estimate.cpp",
+        "file_last_write": 1710926897.0,
+        "definitions": [
+            {
+                "usr": "c:@F@funcEstimate_Eff#$@N@arma@S@Col>#d#$@N@arma@S@Mat>#d#S0_#d#S0_#d#b#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "funcEstimate_Eff(arma::vec, arma::mat, arma::vec, double, arma::vec, double, bool, double)",
+                "file": "/Users/slehmann/Library/CloudStorage/Dropbox/HFTP/eDMA-master/src/Estimate.cpp",
+                "line": 14,
+                "column": 6,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/Users/slehmann/Library/CloudStorage/Dropbox/HFTP/eDMA-master/src/Estimate.h",
+        "file_last_write": 1535331266.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "/Users/slehmann/Library/CloudStorage/Dropbox/HFTP/eDMA-master/src/Estimate_par.cpp",
+        "file_last_write": 1710857927.0,
+        "definitions": [
+            {
+                "usr": "c:@F@funcEstimate_Eff_par#$@N@arma@S@Col>#d#$@N@arma@S@Mat>#d#S0_#d#S0_#d#b#d#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "funcEstimate_Eff_par(arma::vec, arma::mat, arma::vec, double, arma::vec, double, bool, double, int)",
+                "file": "/Users/slehmann/Library/CloudStorage/Dropbox/HFTP/eDMA-master/src/Estimate_par.cpp",
+                "line": 15,
+                "column": 6,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/Users/slehmann/Library/CloudStorage/Dropbox/HFTP/eDMA-master/src/Simulate.cpp",
+        "file_last_write": 1535331266.0,
+        "definitions": [
+            {
+                "usr": "c:@F@SimulateDLM#I#$@N@arma@S@Mat>#d#$@N@arma@S@Col>#d#S0_#d#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "SimulateDLM(int, arma::mat, arma::vec, arma::mat, double, double)",
+                "file": "/Users/slehmann/Library/CloudStorage/Dropbox/HFTP/eDMA-master/src/Simulate.cpp",
+                "line": 8,
+                "column": 6,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/Users/slehmann/Library/CloudStorage/Dropbox/HFTP/eDMA-master/src/Utils.cpp",
+        "file_last_write": 1535331266.0,
+        "definitions": [
+            {
+                "usr": "c:@F@MaxFinder#$@N@arma@S@Col>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "MaxFinder(arma::vec)",
+                "file": "/Users/slehmann/Library/CloudStorage/Dropbox/HFTP/eDMA-master/src/Utils.cpp",
+                "line": 6,
+                "column": 5,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@int_pow#I#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "int_pow(int, int)",
+                "file": "/Users/slehmann/Library/CloudStorage/Dropbox/HFTP/eDMA-master/src/Utils.cpp",
+                "line": 22,
+                "column": 5,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/Users/slehmann/Library/CloudStorage/Dropbox/HFTP/eDMA-master/src/Utils.h",
+        "file_last_write": 1535331266.0,
+        "definitions": [],
+        "hidden": false
+    }
+]
