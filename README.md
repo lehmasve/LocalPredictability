@@ -1,7 +1,6 @@
 # Local Predictability in High-Dimensions
 
-This repository contains the source code for the paper **Local Predictability in High-Dimensions** by [Adämmer, Lehmann and Schüssler (2024)](https://dx.doi.org/10.2139/ssrn.4342487). 
-The forecasting method introduced in the paper is available through our R-Package [hdflex](https://github.com/lehmasve/hdflex)
+This repository contains the source code for the paper **Local Predictability in High-Dimensions** by [Adämmer, Lehmann and Schüssler (2024)](https://dx.doi.org/10.2139/ssrn.4342487). The forecasting method introduced in the paper is available through our R-Package [hdflex](https://github.com/lehmasve/hdflex).
 
 Please remember to cite the paper when using the code from this repository or our forecasting method.
 
@@ -14,7 +13,7 @@ Due to licensing constraints, we are unable to freely upload the data to this pl
 
 ## Notes
 
-The following files contain specific functions and scripts:
+The folder **Code** contains the following functions and scripts:
 * The file _cmodels.R contains functions to fit the models for (part of) the F-Signals
 * The file _fmodels.R contains functions to fit the benchmark models
 * The file _helpers.R contains several helper functions -- among others, a function to convert the jupyter notebooks to plain R-scripts
@@ -25,4 +24,8 @@ The following files contain specific functions and scripts:
 * The file inflatiom_main_script.ipynb generates all results, plots, and tables for the application on forecasting quarterly US inflation
 * The file simulation.ipynb generates all results, plots, and tables for the simulation study
 
-For our benchmark method PCDMA, we use the R-Package [eDMA](https://cran.r-project.org/package=eDMA). However, to evaluate the density forecasting accuracy, some additional objects have to be returned, which was not supported in the package. Before running the code, you will have to install the adapted (local) version of the **eDMA** package.
+The file renv.lock is a lockfile with the state of dependencies in the project library. The lockfile can be used to restore these dependencies as required.
+
+For our benchmark method PCDMA, we use the R-Package [eDMA](https://cran.r-project.org/package=eDMA). However, to evaluate the density forecasting accuracy, some additional objects have to be returned, which was not supported in the package. Before running the code, you will have to install the adapted (local) version of the **eDMA** package. 
+```r
+install.packages("/eDMA_1.5-3.tar.gz", repos = NULL, type = "source")
