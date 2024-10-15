@@ -6,8 +6,9 @@ This repository contains the source code for the paper **Local Predictability in
 
 Due to licensing constraints, we are unable to freely upload the data to this platform.
 
-* For our application on forecasting daily aggregate stock returns, we use time series collected from the [CRSP](https://www.crsp.org) and [Datastream](http://www.lseg.com/en/data-analytics) databases, as well as newspaper articles from *The New York Times* and *The Washington Post*. The text data were collected using the online tool [NexisUni](https://www.lexisnexis.com/en-int/products/nexis-uni). 
-* For our application on forecasting quarterly inflation, we use the dataset (and forecasts) compiled by [Koop and Korobilis (2023)](https://sites.google.com/site/dimitriskorobilis/matlab/vbdvs).
+* For our application on **forecasting daily aggregate stock returns**, we use time series collected from the [CRSP](https://www.crsp.org) and [Datastream](http://www.lseg.com/en/data-analytics) databases, as well as newspaper articles from *The New York Times* and *The Washington Post*. The text data were collected using the online tool [NexisUni](https://www.lexisnexis.com/en-int/products/nexis-uni). 
+* For our application on **forecasting quarterly inflation**, we use the dataset (and forecasts) compiled by [Koop and Korobilis (2023)](https://sites.google.com/site/dimitriskorobilis/matlab/vbdvs).
+* Please see the paper for a detailed information about the specific data (sources) used in the research
 
 ## Notes
 
@@ -27,3 +28,4 @@ The file `renv.lock` is a lockfile with the current state of dependencies in the
 For our benchmark method PCDMA, we use the R-Package [eDMA](https://cran.r-project.org/package=eDMA). However, to evaluate the density forecasting accuracy, some additional objects have to be returned, which was not supported in the package. Before running the code, you will have to install the adapted (local) version of the **eDMA** package. 
 ```r
 install.packages("/eDMA_1.5-3.tar.gz", repos = NULL, type = "source")
+```
