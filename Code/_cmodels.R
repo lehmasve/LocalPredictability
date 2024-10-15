@@ -70,7 +70,7 @@ cm_dt <- function(x_train,
 }
 
 ### ------------------------------------
-### Elastic-Net
+### Elastic-Net / Ridge Regression
 cm_eln <- function(x_train,
                    y_train,
                    x_pred,
@@ -289,52 +289,3 @@ cm_pcr <- function(x_train,
   # Return
   return(pred)
 }
-
-#######################
-# # Principal Component Regression - Finance
-# pcr_model <- function(x_train,
-#                       y_train,
-#                       x_pred,
-#                       n_comp,
-#                       folds,
-#                       ran_st) {
-# 
-#   # Check for NA-Values
-#   if (any(is.na(x_train)) || any(is.na(y_train)) || any(is.na(x_pred))) {
-#     stop("PCR: NA problem.")
-#   }
-#   if (n_comp > ncol(x_train)) {
-#     stop("PCR: Number of components exceeds number of predictors.")
-#   }
-# 
-#   # Response-Name
-#   colnames(y_train) <- "response"
-# 
-#   # Train Data
-#   df_train <- as.data.frame(cbind(y_train, x_train))
-# 
-#   # Test Data
-#   df_test <- as.data.frame(x_pred)
-# 
-#   # Set Seed
-#   set.seed(ran_st)
-# 
-#   # Fit Model
-#   model_pcr <- pls::pcr(response ~ .,
-#                         ncomp  = n_comp,
-#                         data   = df_train,
-#                         scale  = TRUE,
-#                         center = TRUE,
-#                         validation = c("CV"),
-#                         segments = folds,
-#                         model = FALSE)
-# 
-#   # Get CV-Number of Components
-#   cv_ncomp <- which.min(pls::RMSEP(model_pcr, estimate = "adjCV")$val[-1])
-# 
-#   # Predict
-#   pred <- predict(model_pcr, df_test, ncomp = cv_ncomp)
-# 
-#   # Return
-#   return(pred)
-# }
