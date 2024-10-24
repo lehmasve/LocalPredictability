@@ -1,5 +1,5 @@
 ### ----------------------------------------
-### Functions for Forecasting Models
+### Functions for Forecasting Models (-> Benchmark Models)
 ### ----------------------------------------
 # (Prevailing) Historical Mean (PHM)
 phm <- function(y, window_size, mean_type = "rolling") {
