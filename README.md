@@ -1,6 +1,6 @@
 # Local Predictability in High-Dimensions
 
-This repository contains the source code for the paper **Local Predictability in High-Dimensions** by [Adämmer, Lehmann and Schüssler (2024)](https://dx.doi.org/10.2139/ssrn.4342487). The forecasting method introduced in the paper is available through our R-Package [hdflex](https://github.com/lehmasve/hdflex). Please remember to cite the paper when using the code from this repository or our forecasting method.
+This repository contains the source code for the paper **Local Predictability in High Dimensions** by [Adämmer, Lehmann and Schüssler (2024)](https://dx.doi.org/10.2139/ssrn.4342487). The forecasting method introduced in the paper is available through our R-Package [hdflex](https://github.com/lehmasve/hdflex). Please remember to cite the paper when using the code from this repository or our forecasting method.
 
 ## Data
 
