@@ -1,4 +1,4 @@
-# Local Predictability in High-Dimensions
+# Local Predictability in High Dimensions
 
 This repository contains the source code for the paper **Local Predictability in High Dimensions** by [Adämmer, Lehmann and Schüssler (2024)](https://dx.doi.org/10.2139/ssrn.4342487).
 
